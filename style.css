@@ -1,0 +1,129 @@
+header, main {
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+
+
+background-image: url("https://www.highreshdwallpapers.com/wp-content/uploads/2012/03/Wood-Wallpaper.jpg");
+}
+
+.caixa{
+
+background-color: rgba(82, 54, 0, 0.318);
+height: 150px;
+width: 400px;
+
+}
+
+h1{
+
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+#valor{
+
+    width: 350px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 45px;
+    font-size: 25px;
+    border-radius: 5px;
+ 
+}
+
+p{
+
+    color: wheat;
+
+}
+
+#criar,#limpar{
+
+    height: 50px;
+    width: 125px;
+
+}
+
+button{
+
+    margin-top: 25px;
+    background-color: rgba(246, 1, 1, 0.415);
+    color: white;
+    font-size: 15px;
+    border-bottom: 1px;
+    border-color: white;
+    border-radius: 7px;
+}
+
+.submit{
+
+    height: 100px;
+
+}
+
+#criar:hover{
+
+    background-color: rgba(18, 105, 0, 0.556);
+
+}
+
+.table{
+
+    background-color: rgb(255, 255, 255);
+    border-top-width: 7px;
+    border-top-style: solid;
+    border-top-color: rgb(121, 0, 0);
+   
+width: 400px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 25px;
+    width: 300px;
+    border: 3px;
+    border-style:solid;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    background-color: rgba(0, 0, 255, 0.344);
+
+
+  }
+
+  #limpar{
+
+    background-color: rgba(0, 0, 255, 0.464);
+
+  }
+
+  #excluir{
+
+width: 25px;
+position: static;
+background-color: red;
+
+
+
+  }
+  
+
+
+
+#material-icons{
+ 
+    color: red;
+}
+
+.clicado{
+
+    text-decoration: line-through;
+    color: rgb(0, 0, 0);
+    background-color: rgba(230, 7, 7, 0.39);
+}

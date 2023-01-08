@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Chores List</title>
+</head>
+<body>
+    <header>
+        <h1>Chores List</h1>
+    </header>
+    <main>
+        <div class="caixa">
+             <input id = "valor">  
+        </div>
+
+        
+        <div class="submit">
+            <button onclick="adicionar()" id = "criar">
+                <i class="large material-icons">add_shopping_cart</i>
+            </button>  
+            <button onclick="limpa()" id = "limpar">
+                <i class="large material-icons">autorenew</i>
+            </button>                          
+            </div>
+        
+        <div class="table">
+            <ul id = "lista">
+               
+            </ul>
+        </div>
+
+        
+        <div class="legend">
+            <p>Feito por <b>Felipe Valeriano</b></p>
+        </div>
+    </main>
+</body>
+<script src="chores.js"></script>
+</html>
